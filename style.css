@@ -1,0 +1,400 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* ------------------------ */
+/*         Nav Bar          */
+/* ------------------------ */
+
+.nav-bar{
+    background-color: #06000F;
+    height:80px;  
+    display:flex; 
+    justify-content: center;
+    text-align: center;
+    border-bottom:2px solid wheat;
+   
+}
+
+.person{
+    margin-right:600px;
+    padding-top: 25px;
+    font-size:22px;
+    color:#F0E5FF;
+    
+}
+
+.nav{
+    display:flex; 
+    justify-content: center;
+    text-align: center;
+    padding-top:10px;
+    font-size:24px;
+    
+}
+
+.nav p{
+    margin:15px;
+}
+
+a{
+    text-decoration: none;
+    color:#F0E5FF;
+}
+
+.border{
+    color:#F0E5FF;
+}
+
+.border a:hover{
+    color:rgb(23, 20, 211);
+}
+
+
+/* ------------------------ */
+/*       Body Section       */
+/* ------------------------ */
+
+.home-section{
+    background-color: #050505;
+    color:#F0E5FF;
+}
+
+
+/* ------------------------ */
+/*       Introduction       */
+/* ------------------------ */
+.section1{
+    height:500px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 120px;
+    border-bottom:2px solid wheat;
+}
+
+/* Home text */
+.home-text{
+    color:#F9941F;
+    font-size: 25px;
+    padding-top: 40px;
+}
+
+.home-text h1{
+    color:#F6F91F;
+    margin-bottom:10px;
+}
+
+.home-text i{
+    color:wheat;
+    font-size: 80px;
+}
+
+.resume-btn {
+    display: inline-block;
+    height: 45px;
+    width: 150px;
+    margin:15px 0;
+    background-color: #00E5FF;
+    color: black ;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.resume-btn i{
+    font-size: 15px;
+    margin-right: 2px;
+    color:black;
+}
+
+.resume-btn:hover {
+    background-color: #00E5FF;
+}
+
+
+/* image */
+
+.image{
+    background-image: url("image.png");
+    background-size: cover;
+    height: 320px;
+    width:250px;
+}
+
+
+
+/* ------------------------ */
+/*    Education  Section    */
+/* ------------------------ */
+
+.education {
+    background-color:  #050505;
+    min-height: 600px;
+    padding: 20px;
+    border-bottom: 2px solid wheat;
+}
+
+.education > h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.edu {
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.edu-year {
+    margin-left:50px;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #F6F91F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F6F91F;
+    font-weight: bold;
+}
+
+.edu-content {
+    width: 600px;
+    margin-left: 50px;
+    padding: 15px;
+    border: 2px solid #F6F91F;
+    border-radius: 10px;
+}
+
+.edu-content h2 {
+    color: white;
+    margin: 0 0 5px;
+}
+
+.edu-content p {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
+
+/* ------------------------ */
+/*        Skills Section    */
+/* ------------------------ */
+
+.skills-section {
+    background-color:  #050505;
+    height:600px;
+    padding:20px;
+    border-bottom:2px solid wheat;
+    color:white;
+}
+
+.skill{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+}
+
+.skill-content{
+    width: 600px;
+    margin-left: 50px;
+    padding: 15px;
+    border: 2px solid #F6F91F;
+    border-radius: 10px;
+}
+
+.skill-content h1{
+    color: white;
+    font-size: 24px;
+    margin: 0 0 5px;
+   
+}
+
+.skill-content p{
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    
+}
+
+.icon{
+    margin-left:50px;
+    width: 80px;
+    height: 80px;
+    border: 3px solid #F6F91F;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F6F91F;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+/* ------------------------ */
+/*      Project Section     */
+/* ------------------------ */
+
+.project-section{
+    background-color:  #050505;
+    height:700px;
+    padding:20px;
+    border-bottom:2px solid wheat;
+    color:white;
+}
+
+
+.project{
+    width: 1100px;
+    margin:20px 0 0 100px;
+    padding: 15px;
+    border: 2px solid #69D2E7;
+    border-radius: 10px;
+}
+.project h1{
+    color: #ECD078;
+    font-size:25px;
+}
+
+.project p{
+    font-size:18px;
+    color:white;
+}
+
+
+/* ------------------------ */
+/*      About Me Section    */
+/* ------------------------ */
+
+.about-section{
+    background-color:  #050505;
+    height:600px;
+    padding:20px;
+    border-bottom:2px solid wheat;
+    color:white;
+}
+
+.about-content{
+    display:flex;
+    margin:20px 0 0 80px;
+}
+
+.photo{
+    background-image: url("about_image.jpg");
+    background-size: cover;
+    width:450px;
+    height:300px;
+    margin-top:50px;
+    border: 2px solid #EAFDE6;
+    border-radius:10px;
+}
+
+.about{
+    height:200px;
+    width:550px;
+    margin:20px 0 0 100px;
+    font-size:20px;
+}
+
+.sign{
+    position:relative;
+    margin:10px 0 0 400px;
+}
+
+/* ------------------------ */
+/*      Contact Section     */
+/* ------------------------ */
+
+.contact-section{
+    background-color: #050505;
+    height:650px;
+    padding:20px;
+    border-bottom:2px solid wheat;
+    color:white;
+    
+}
+
+.contact{
+    display:flex;
+    margin:18px 0 0 80px;
+    padding:8px;
+}
+
+.contact-item{
+    width: 600px;
+    margin-left: 50px;
+    padding: 15px;
+    border: 2px solid #F6F91F;
+    border-radius: 10px;
+    font-size:20px;
+}
+
+.contact h1{
+    font-size:22px;
+}
+
+
+/* -------------------- */
+/*    Footer Section    */
+/* -------------------- */
+
+.footer-section{
+    background-color:#06000F;
+    height:40px;
+    color:white;
+    font-size:30px;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    
+}
+
+
+
+/* ---------------------------------- */
+/*            Education.html          */
+/* ---------------------------------- */
+
+.education-body{
+    background-color:  #050505 ;
+}
+
+
+/* Footer section-2 */
+
+.footer-section2{
+    background-color:#06000F;
+    height:60px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    gap: 8px;
+
+}
+.go {
+    background-color: #00E5FF;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.go-btn {
+    margin-bottom: 4px;
+}
+
+.thank {
+    color: white;
+    font-size: 25px;
+}
